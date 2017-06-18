@@ -1,6 +1,6 @@
 import { Http, RequestOptions } from '@angular/http';
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 
 import { AuthHttp, AuthConfig } from 'angular2-jwt';
 

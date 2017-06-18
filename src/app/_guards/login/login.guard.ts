@@ -5,9 +5,9 @@ import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 export class LoginGuard implements CanActivate {
-  
-  constructor(private router: Router, private loginService: LoginService){}
-  
+
+  constructor(private router: Router, private loginService: LoginService) {}
+
   canActivate(next: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
     if (!this.loginService.loggedIn()) {
       return true;

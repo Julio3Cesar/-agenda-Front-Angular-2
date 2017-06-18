@@ -19,23 +19,20 @@ export class ContatosComponent implements OnInit {
   }
 
   ngOnInit() {
-    // $('#example').DataTable();
-    //teste
-    // this.contatos = this.contatosService.getContatos();
     this.contatosService.getContatos()
       .subscribe(data => this.contatos = data);
   }
 
   deleteContato(contato) {
-    if (confirm("Deseja deletar o contato " + contato.nome + "?")) {
-      var index = this.contatos.indexOf(contato);
+    if (confirm('Deseja deletar o contato ' + contato.nome + '?')) {
+      const index = this.contatos.indexOf(contato);
       this.contatos.splice(index, 1);
 
       this.contatosService.deleteContato(contato.id)
         .subscribe(null,
         err => {
-          alert("Could not delete user.");
-          // Reverte remoÃ§Ã£o
+          alert('Could not delete user.');
+          // Reverte remoção
           this.contatos.splice(index, 0, contato);
         });
     }

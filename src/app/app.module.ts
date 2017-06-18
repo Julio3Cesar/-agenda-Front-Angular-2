@@ -14,6 +14,7 @@ import { LoginComponent } from './login/login.component';
 import { LoginService } from './_services/login/login.service';
 import { ContatosComponent } from './contatos/contatos.component';
 import { ContatosService } from './_services/contatos/contatos.service';
+import { ContatoFormComponent } from './contatos/contato-form/contato-form.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ContatosService } from './_services/contatos/contatos.service';
     LoginComponent,
     HomeComponent,
     MenuComponent,
-    ContatosComponent
+    ContatosComponent,
+    ContatoFormComponent
   ],
   imports: [
     BrowserModule,
