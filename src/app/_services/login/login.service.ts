@@ -2,9 +2,9 @@ import { User } from './../../_models/User';
 import { Http, Response } from '@angular/http';
 import { Injectable } from '@angular/core';
 
-import { AuthConfig, tokenNotExpired } from 'angular2-jwt';
-import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
+import { Observable } from 'rxjs/Observable';
+import { AuthConfig, tokenNotExpired } from 'angular2-jwt';
 
 
 @Injectable()

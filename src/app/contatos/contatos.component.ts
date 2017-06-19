@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContatosComponent implements OnInit {
 
-  private contatos: Contato[] = [];
+  private contatos: Contato[];
 
 
   constructor(

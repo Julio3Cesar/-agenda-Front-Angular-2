@@ -13,8 +13,11 @@ import { LoginGuard } from './_guards/login/login.guard';
 import { LoginComponent } from './login/login.component';
 import { LoginService } from './_services/login/login.service';
 import { ContatosComponent } from './contatos/contatos.component';
+import { MenuUserService } from './_services/menu/menu-user.service';
 import { ContatosService } from './_services/contatos/contatos.service';
 import { ContatoFormComponent } from './contatos/contato-form/contato-form.component';
+import { AboutComponent } from './about/about.component';
+import { OptionsComponent } from './options/options.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,9 @@ import { ContatoFormComponent } from './contatos/contato-form/contato-form.compo
     HomeComponent,
     MenuComponent,
     ContatosComponent,
-    ContatoFormComponent
+    ContatoFormComponent,
+    AboutComponent,
+    OptionsComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +42,8 @@ import { ContatoFormComponent } from './contatos/contato-form/contato-form.compo
     AuthGuard,
     LoginGuard,
     ContatosService,
-    LoginService
+    LoginService,
+    MenuUserService
   ],
   bootstrap: [AppComponent]
 })

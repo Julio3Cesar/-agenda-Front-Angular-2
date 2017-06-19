@@ -1,6 +1,6 @@
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from "@angular/forms";
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 import { LoginService } from './../_services/login/login.service';
 import { User } from './../_models/User';
@@ -15,7 +15,7 @@ export class LoginComponent {
   private user: User = new User();
   formLogin: FormGroup;
 
-  constructor(formBuilder: FormBuilder, private loginService: LoginService, private router: Router) {
+  constructor(private formBuilder: FormBuilder, private loginService: LoginService, private router: Router) {
     this.formLogin = formBuilder.group({
       user: ['', [
         Validators.required,
