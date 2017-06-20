@@ -14,7 +14,7 @@ import { OptionsComponent } from './options/options.component';
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent, canActivate: [LoginGuard] },
   {
-    path: 'menu', component: MenuComponent, children: [
+    path: 'menu', component: MenuComponent, canActivate: [AuthGuard], children: [
       { path: 'home', component: HomeComponent },
       { path: 'contatos', component: ContatosComponent },
       { path: 'contatos/:id', component: ContatoFormComponent },

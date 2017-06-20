@@ -13,7 +13,7 @@ export class LoginService {
   constructor(private http: Http) { }
 
   login(user: User) {
-    return this.http.post('http://localhost:8080/jwt-teste/api/teste/logar', user)
+    return this.http.post('http://localhost:8080/AgendaWs/service/autentica/loguin', user)
       .map(response => {
         const token = response.text();
 

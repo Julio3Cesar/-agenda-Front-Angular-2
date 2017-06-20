@@ -11,13 +11,11 @@ import { User } from './../_models/User';
 })
 export class MenuComponent implements OnInit {
 
-  public static exNome: string;
-  logado: UserLogado;
+  public logado: UserLogado;
 
   constructor(private menuUserService: MenuUserService) {
     this.logado = new UserLogado('Jackson', 'Jogador de Basquete',
       'http://www.caixa.gov.br/PublishingImages/Paginas/LT_T026/bannerheader_conta_corrente_pf.png');
-    MenuComponent.exNome = this.logado.nome;
   }
 
   ngOnInit() {

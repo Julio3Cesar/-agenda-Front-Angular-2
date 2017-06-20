@@ -1,7 +1,9 @@
-import { LoginService } from './../../_services/login/login.service';
 import { Injectable } from '@angular/core';
 import { Router, CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
+
+
 import { Observable } from 'rxjs/Observable';
+import { LoginService } from '../../_services/login/login.service';
 
 @Injectable()
 export class LoginGuard implements CanActivate {
@@ -12,7 +14,7 @@ export class LoginGuard implements CanActivate {
     if (!this.loginService.loggedIn()) {
       return true;
     } else {
-      // this.router.navigate(['menu/home']);
+      this.router.navigate(['menu/home']);
       return false;
     }
   }
