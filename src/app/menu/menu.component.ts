@@ -9,18 +9,21 @@ import { User } from './../_models/User';
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.css']
 })
-export class MenuComponent implements OnInit {
+export class MenuComponent {
 
-  public logado: UserLogado;
+  public static nome: string;
+  public logado: UserLogado = new UserLogado();
 
   constructor(private menuUserService: MenuUserService) {
-    this.logado = new UserLogado('Jackson', 'Jogador de Basquete',
-      'http://www.caixa.gov.br/PublishingImages/Paginas/LT_T026/bannerheader_conta_corrente_pf.png');
+    this.menuUserService.getUser().subscribe(
+      data => {
+        this.logado = data
+        MenuComponent.nome = this.logado.nome
+      }
+    );
   }
 
-  ngOnInit() {
-    this.menuUserService.getUser().subscribe(
-      data => this.logado = data
-    );
+  logout() {
+    localStorage.removeItem('token');
   }
 }

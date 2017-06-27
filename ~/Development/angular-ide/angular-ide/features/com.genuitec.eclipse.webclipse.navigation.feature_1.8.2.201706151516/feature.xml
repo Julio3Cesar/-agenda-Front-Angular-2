@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.genuitec.eclipse.webclipse.navigation.feature"
+      label="Webclipse Navigation &amp; Research Aides"
+      version="1.8.2.201706151516"
+      provider-name="Genuitec, LLC">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Webclipse Navigation &amp; Research Aides feature adds power-ups to your Eclipse workbench:
+
+Project Explorer+ is a powerful replacement to the Project / Package 
+Explorers with filtering, search, and advanced content display.
+
+The Breadcrumb toolbar aids contextual navigation, allowing you to easily 
+access resources relative to resources currently being edited.
+
+The Minimap allows you to easily navigate through large source files using a 
+modern visual outline of your code.
+
+The DevSearch feature allows you to query GitHub, Stack Overflow 
+and Eclipse Help directly in your IDE.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <includes
+         id="com.genuitec.eclipse.webclipse.explorer.feature"
+         version="1.8.2.201706151516"/>
+
+   <includes
+         id="com.genuitec.eclipse.webclipse.minimap.feature"
+         version="1.8.2.201706151516"/>
+
+   <includes
+         id="com.genuitec.eclipse.webclipse.devsearch.feature"
+         version="1.8.2.201706151516"/>
+
+   <requires>
+      <import feature="com.genuitec.eclipse.webclipse.core.feature" version="1.0.2"/>
+   </requires>
+
+</feature>

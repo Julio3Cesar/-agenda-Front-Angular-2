@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.webclipse.explorer.feature" label="Project Explorer Plus" provider-name="Genuitec, LLC" version="1.8.2.201706151516">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Webclipse Project Explorer+ feature adds a powerful replacement for the Project / Package Explorers with filtering, search and advanced content display.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <requires>
+      <import feature="com.genuitec.eclipse.webclipse.core.feature" version="1.0.2"/>
+   </requires>
+
+   <plugin download-size="116" id="com.genuitec.eclipse.meexplorer" install-size="231" unpack="false" version="13.0.0.201705290950"/>
+
+   <plugin download-size="4" id="com.genuitec.eclipse.projectexplorerplus" install-size="4" unpack="false" version="1.6.0.201701041554"/>
+
+</feature>

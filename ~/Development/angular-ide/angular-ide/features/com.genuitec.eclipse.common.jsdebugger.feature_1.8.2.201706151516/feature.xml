@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.common.jsdebugger.feature" label="JavaScript Debugger Commons" provider-name="Genuitec, LLC" version="1.8.2.201706151516">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The JavaScript Debugger adds JavaScript debugging capabilities to Eclipse, allowing you to debug Web, Java EE and Node applications.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <includes id="org.chromium.debug" version="0.3.9.201706151510"/>
+
+   <includes id="org.chromium.sdk" version="0.3.9.201706151510"/>
+
+   <includes id="org.chromium.sdk.wipbackends" version="0.1.11.201706151510"/>
+
+   <requires>
+      <import feature="org.eclipse.wst.jsdt.feature" match="greaterOrEqual" version="1.6.0"/>
+      <import feature="com.genuitec.eclipse.common.core.feature" match="compatible" version="1.2.0"/>
+   </requires>
+
+   <plugin download-size="175" id="com.genuitec.eclipse.javascript.debug.core" install-size="334" unpack="false" version="13.0.0.201701201422"/>
+
+   <plugin download-size="1179" id="com.genuitec.eclipse.javascript.debug.ui" install-size="1607" unpack="false" version="13.0.0.201701041554"/>
+
+   <plugin download-size="190" id="com.genuitec.eclipse.javascript.debug.wip.core" install-size="505" unpack="false" version="13.0.0.201705050950"/>
+
+   <plugin download-size="41" id="com.genuitec.eclipse.javascript.debug.wip.ui" install-size="72" unpack="false" version="13.0.0.201705050956"/>
+
+   <plugin download-size="126" id="com.genuitec.eclipse.modernweb.common.core" install-size="254" unpack="false" version="1.8.1.201706021104"/>
+
+   <plugin download-size="98" id="com.genuitec.eclipse.modernweb.common.ui" install-size="180" unpack="false" version="1.8.1.201705311420"/>
+
+</feature>

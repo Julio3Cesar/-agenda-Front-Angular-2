@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.eclipsesource.j2v8.feature" label="%featureName" provider-name="%featureProvider" version="4.0.0.201704121300">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin arch="x86_64" download-size="4281" id="com.eclipsesource.j2v8.linux_x86_64" install-size="13770" os="linux" unpack="false" version="4.0.0.201606171358"/>
+
+   <plugin arch="x86" download-size="3855" id="com.eclipsesource.j2v8.linux_x86" install-size="13183" os="linux" unpack="false" version="4.0.0.201606171358"/>
+
+   <plugin arch="x86_64" download-size="3823" id="com.eclipsesource.j2v8.macosx_x86_64" install-size="14203" os="macosx" unpack="false" version="4.0.0.201606171358"/>
+
+   <plugin arch="x86_64" download-size="4416" id="com.eclipsesource.j2v8.win32_x86_64" install-size="13260" os="win32" unpack="false" version="4.0.0.201606171358"/>
+
+   <plugin arch="x86" download-size="2835" id="com.eclipsesource.j2v8.win32_x86" install-size="8267" os="win32" unpack="false" version="4.0.0.201606171358"/>
+
+</feature>

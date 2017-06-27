@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.common.devsearch.feature" label="DevSearch Commons" provider-name="Genuitec, LLC" version="1.8.2.201706151516">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The DevSearch feature allows you to see searching results from GitHub, Stack Overflow and Eclipse Help directly in your IDE
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <requires>
+      <import feature="com.genuitec.eclipse.common.core.feature"/>
+   </requires>
+
+   <plugin download-size="186" id="com.genuitec.eclipse.webclipse.devsearch" install-size="371" unpack="false" version="1.7.0.201701191646"/>
+
+   <plugin download-size="1152" id="com.fasterxml.jackson.core.jackson-databind" install-size="3039" unpack="false" version="2.5.0.v201504151636"/>
+
+</feature>

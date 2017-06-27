@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.common.core.feature" label="Genuitec Core" provider-name="Genuitec, LLC" version="1.8.2.201706151510">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Genuitec Core feature provides foundation plugins required for Genuitec Eclipse-based products functionality.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <includes id="com.genuitec.eclipse.common.core.base.feature" version="1.8.2.201706151510"/>
+
+   <requires>
+      <import feature="org.eclipse.platform" match="compatible" version="4.4.0"/>
+      <import feature="org.eclipse.e4.rcp" match="compatible" version="1.3.0"/>
+   </requires>
+
+   <plugin download-size="587" id="com.genuitec.eclipse.core" install-size="873" unpack="false" version="15.0.0.201706061258"/>
+
+   <plugin download-size="1551" id="com.genuitec.eclipse.jniwrapper" install-size="2038" unpack="false" version="13.0.0.201701041554"/>
+
+   <plugin download-size="84" id="com.genuitec.eclipse.monitor" install-size="156" unpack="false" version="13.0.0.201706011333"/>
+
+   <plugin download-size="192" id="com.genuitec.eclipse.dashboard.common" install-size="387" unpack="false" version="13.0.0.201705252329"/>
+
+   <plugin download-size="110" id="com.genuitec.eclipse.featureintro" install-size="327" unpack="false" version="1.7.0.201702011844"/>
+
+   <plugin download-size="34" id="org.slf4j.api" install-size="61" unpack="false" version="1.7.2.v20121108-1250"/>
+
+   <plugin download-size="15" fragment="true" id="org.slf4j.impl.log4j12" install-size="25" unpack="false" version="1.7.2.v20131105-2200"/>
+
+   <plugin download-size="241" id="org.apache.commons.beanutils" install-size="500" unpack="false" version="1.8.0.v201205091237"/>
+
+   <plugin download-size="313" id="javax.mail" install-size="588" unpack="false" version="1.4.0.v201005080615"/>
+
+   <plugin download-size="54" id="javax.activation" install-size="105" unpack="false" version="1.1.0.v201211130549"/>
+
+   <plugin download-size="2552" id="com.genuitec.eclipse.webclipse.localserver" install-size="2862" unpack="false" version="1.7.2.201703141812"/>
+
+   <plugin download-size="102" id="javax.servlet" install-size="202" unpack="false" version="3.1.0.v201410161800"/>
+
+   <plugin download-size="45" id="javax.websocket-api" install-size="77" unpack="false" version="1.1.0.201606171313"/>
+
+</feature>

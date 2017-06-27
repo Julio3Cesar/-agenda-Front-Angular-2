@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.common.jsdebugger.jee.feature" label="JavaScript Debugger - JavaEE Support" provider-name="Genuitec, LLC" version="1.8.2.201706151516">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The JavaScript Debugger adds JavaScript debugging capabilities to Eclipse, allowing you to debug Web, Java EE and Node applications.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <requires>
+      <import feature="com.genuitec.eclipse.common.core.javaee.feature"/>
+   </requires>
+
+   <plugin download-size="23" id="com.genuitec.eclipse.javascript.jee.core" install-size="42" unpack="false" version="13.0.0.201701041554"/>
+
+   <plugin download-size="63" id="com.genuitec.eclipse.javascript.jee.ui" install-size="107" unpack="false" version="13.0.0.201701041554"/>
+
+</feature>

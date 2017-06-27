@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  Copyright (c) 2009 The Chromium Authors. All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be
+  found in the LICENSE file.
+--><feature id="org.chromium.debug" label="%featureName" provider-name="%providerName" version="0.3.9.201706151510">
+
+   <description url="http://code.google.com/p/chromedevtools/wiki/EclipseDebugger">
+      %description
+   </description>
+
+   <copyright>
+      Copyright (c) 2012 The Chromium Authors. All rights reserved.
+   </copyright>
+
+   <license url="%licenseUrl">
+      %licenseAgreement
+   </license>
+
+   <url>
+      <update label="ChromeDevTools Update Site" url="http://chromedevtools.googlecode.com/svn/update/dev/"/>
+   </url>
+
+   <requires>
+      <import feature="org.chromium.sdk" match="compatible" version="0.3.9"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import match="greaterOrEqual" plugin="org.eclipse.core.filesystem" version="1.2.0"/>
+      <import match="greaterOrEqual" plugin="org.eclipse.jface.text" version="3.4.1"/>
+      <import match="greaterOrEqual" plugin="org.eclipse.core.variables" version="3.2.100"/>
+      <import feature="org.eclipse.wst.jsdt.feature" match="greaterOrEqual" version="1.2.0"/>
+   </requires>
+
+   <plugin download-size="380" id="org.chromium.debug.core" install-size="771" unpack="false" version="0.3.9.201701041554"/>
+
+</feature>

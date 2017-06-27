@@ -5,7 +5,10 @@ import { NgModule } from '@angular/core';
 import { AuthHttp, AuthConfig } from 'angular2-jwt';
 
 export function authHttpServiceFactory(http: Http, options: RequestOptions) {
-  return new AuthHttp(new AuthConfig(), http, options);
+  return new AuthHttp(new AuthConfig({
+    headerName: 'Authorization',
+    headerPrefix: ' '
+  }), http, options);
 }
 
 @NgModule({

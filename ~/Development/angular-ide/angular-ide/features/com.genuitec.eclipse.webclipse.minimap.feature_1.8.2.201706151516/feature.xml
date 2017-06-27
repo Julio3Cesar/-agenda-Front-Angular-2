@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.webclipse.minimap.feature" label="Minimap by Webclipse" provider-name="Genuitec, LLC" version="1.8.2.201706151516">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Webclipse Minimap feature allows you to easily navigate through large source files using a modern visual outline of your code.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <includes id="net.jeeeyul.swtend.feature" version="2.2.5.201706151516"/>
+
+   <requires>
+      <import feature="com.genuitec.eclipse.webclipse.core.feature" version="1.0.2"/>
+   </requires>
+
+   <plugin download-size="61" id="com.genuitec.eclipse.minimap" install-size="119" unpack="false" version="13.0.0.201705041001"/>
+
+</feature>

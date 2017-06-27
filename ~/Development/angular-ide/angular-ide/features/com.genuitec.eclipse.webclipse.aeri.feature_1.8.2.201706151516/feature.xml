@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.webclipse.aeri.feature" label="Webclipse AERI Support" provider-name="Genuitec, LLC" version="1.8.2.201706151516">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Webclipse Aeri feature helps improve Webclipse through automated error reporting.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.epp.logging.aeri.feature" version="2.0.3.v20160923-1310"/>
+   </requires>
+
+   <plugin download-size="14" id="com.genuitec.eclipse.webclipse.aeri" install-size="13" unpack="false" version="1.6.0.201701041554"/>
+
+</feature>

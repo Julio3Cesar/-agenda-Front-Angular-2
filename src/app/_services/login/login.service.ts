@@ -13,7 +13,8 @@ export class LoginService {
   constructor(private http: Http) { }
 
   login(user: User) {
-    return this.http.post('http://localhost:8080/AgendaWs/service/autentica/loguin', user)
+//    const he = new Headers({'content-type': 'application/json'});
+    return this.http.post('http://localhost:8080/AgendaWs-Angular/service/autentica/loguin', user)
       .map(response => {
         const token = response.text();
 

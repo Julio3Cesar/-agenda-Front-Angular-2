@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContatosComponent implements OnInit {
 
-  private contatos: Contato[];
+  public contatos: Contato[];
 
 
   constructor(
@@ -31,7 +31,7 @@ export class ContatosComponent implements OnInit {
       this.contatosService.deleteContato(contato.id)
         .subscribe(null,
         err => {
-          alert('Could not delete user.');
+          alert('não foi possivel remover o contato!');
           // Reverte remoção
           this.contatos.splice(index, 0, contato);
         });

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.common.core.base.feature" label="Genuitec Base" provider-name="Genuitec, LLC" version="1.8.2.201706151510">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Genuitec Base feature provides essential plugins.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <plugin download-size="1763" id="com.genuitec.eclipse.core.common.platform" install-size="2072" unpack="false" version="13.0.2.201706070118"/>
+
+   <plugin download-size="320" id="com.genuitec.eclipse.ui.common.platform" install-size="576" unpack="false" version="13.0.0.201705290944"/>
+
+   <plugin download-size="46" id="com.genuitec.eclipse.patches" install-size="95" unpack="false" version="1.8.0.201705090904"/>
+
+   <plugin download-size="84" id="com.genuitec.eclipse.monitor" install-size="156" unpack="false" version="13.0.0.201706011333"/>
+
+   <plugin download-size="587" id="com.genuitec.eclipse.core" install-size="873" unpack="false" version="15.0.0.201706061258"/>
+
+   <plugin download-size="324" id="org.apache.commons.lang3" install-size="717" unpack="false" version="3.1.0.v201403281430"/>
+
+   <plugin download-size="253" id="com.google.gson" install-size="504" unpack="false" version="2.7.0.v20170129-0911"/>
+
+   <plugin download-size="189" id="org.apache.commons.io" install-size="389" unpack="false" version="2.2.0.v201405211200"/>
+
+   <plugin download-size="292" id="org.apache.commons.lang" install-size="619" unpack="false" version="2.6.0.v201404270220"/>
+
+   <plugin download-size="2211" id="com.google.guava" install-size="4997" unpack="false" version="15.0.0.v201403281430"/>
+
+   <plugin download-size="844" id="org.apache.httpcomponents.httpclient" install-size="1790" unpack="false" version="4.3.6.v201511171540"/>
+
+   <plugin download-size="310" id="org.apache.httpcomponents.httpcore" install-size="640" unpack="false" version="4.3.3.v201411290715"/>
+
+   <plugin download-size="617" id="org.apache.commons.collections" install-size="1241" unpack="false" version="3.2.2.v201511171945"/>
+
+   <plugin download-size="21" id="com.genuitec.eclipse.news" install-size="39" unpack="false" version="1.8.1.201705261811"/>
+
+</feature>

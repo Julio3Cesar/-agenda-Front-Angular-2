@@ -1,14 +1,14 @@
-import { AgendaAngularPage } from './app.po';
+import { TestePage } from './app.po';
 
-describe('agenda-angular App', () => {
-  let page: AgendaAngularPage;
+describe('teste App', () => {
+  let page: TestePage;
 
   beforeEach(() => {
-    page = new AgendaAngularPage();
+    page = new TestePage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!!');
   });
 });

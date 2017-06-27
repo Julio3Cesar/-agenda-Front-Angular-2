@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.theming.feature" label="Darkest Dark Theme" provider-name="Genuitec, LLC" version="1.8.2.201706151510">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Darkest Dark feature provides a flat and dark theme for Eclipse.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <includes id="com.genuitec.eclipse.common.core.base.feature" version="1.8.2.201706151510"/>
+
+   <requires>
+      <import feature="org.eclipse.platform" match="greaterOrEqual" version="4.6.0"/>
+   </requires>
+
+   <plugin download-size="617" id="com.genuitec.eclipse.webicons" install-size="1267" unpack="false" version="1.8.2.201706151510"/>
+
+   <plugin download-size="67" id="com.genuitec.eclipse.theming.base" install-size="157" unpack="false" version="1.8.1.201706061843"/>
+
+   <plugin arch="x86_64" download-size="3" fragment="true" id="com.genuitec.eclipse.theming.base.mac" install-size="2" os="macosx" version="1.7.3.201704201256" ws="cocoa,win32"/>
+
+   <plugin download-size="171" id="com.genuitec.eclipse.theming.core" install-size="803" unpack="false" version="1.8.1.201706061843"/>
+
+   <plugin download-size="320" id="com.genuitec.eclipse.theming.scrollbar" install-size="775" unpack="false" version="1.8.1.201706061843"/>
+
+   <plugin arch="x86_64" download-size="5" fragment="true" id="com.genuitec.eclipse.theming.scrollbar.mac" install-size="4" os="macosx" unpack="false" version="1.7.3.201704201256" ws="cocoa"/>
+
+   <plugin download-size="148" id="com.genuitec.eclipse.theming.ui" install-size="343" unpack="false" version="1.8.1.201706061843"/>
+
+   <plugin arch="x86,x86_64" download-size="6" fragment="true" id="com.genuitec.eclipse.theming.base.win" install-size="14" os="win32" version="1.7.3.201704201256" ws="win32"/>
+
+   <plugin arch="x86,x86_64" download-size="17" fragment="true" id="com.genuitec.eclipse.theming.scrollbar.win" install-size="61" os="win32" unpack="false" version="1.8.0.201705050950" ws="win32"/>
+
+   <plugin download-size="105" id="com.genuitec.eclipse.webclipse.evergreen" install-size="202" unpack="false" version="1.8.2.201706151510"/>
+
+   <plugin download-size="322" id="com.genuitec.eclipse.theming.epl" install-size="618" version="1.8.0.201704282218"/>
+
+   <plugin download-size="24" id="com.genuitec.eclipse.theming.css" install-size="97" version="1.8.1.201705310921"/>
+
+   <plugin download-size="102" id="com.genuitec.eclipsecolortheme.api" install-size="252" unpack="false" version="1.8.1.201705261811"/>
+
+</feature>

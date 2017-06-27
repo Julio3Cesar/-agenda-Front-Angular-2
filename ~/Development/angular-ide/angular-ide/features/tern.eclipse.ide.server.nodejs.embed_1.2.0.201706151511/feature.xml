@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="tern.eclipse.ide.server.nodejs.embed" label="%featureName" provider-name="%featureProvider" version="1.2.0.201706151511">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin arch="x86_64" download-size="12203" id="tern.eclipse.ide.server.nodejs.embed.linux.gtk.x86_64" install-size="12976" os="linux" unpack="false" version="1.2.0.201701041527" ws="gtk"/>
+
+   <plugin arch="x86" download-size="11648" id="tern.eclipse.ide.server.nodejs.embed.linux.gtk.x86" install-size="12375" os="linux" unpack="false" version="1.2.0.201701041527" ws="gtk"/>
+
+   <plugin arch="x86_64" download-size="10208" id="tern.eclipse.ide.server.nodejs.embed.macosx.cocoa.x86_64" install-size="11033" os="macosx" unpack="false" version="1.2.0.201701041527" ws="cocoa"/>
+
+   <plugin arch="x86" download-size="4593" id="tern.eclipse.ide.server.nodejs.embed.win32.win32.x86" install-size="4643" os="win32" unpack="false" version="1.2.0.201701041527" ws="win32"/>
+
+   <plugin arch="x86_64" download-size="5483" id="tern.eclipse.ide.server.nodejs.embed.win32.win32.x86_64" install-size="5538" os="win32" unpack="false" version="1.2.0.201701041527" ws="win32"/>
+
+</feature>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="tern-server-nodejs-feature" label="%featureName" provider-name="%featureProvider" version="1.2.0.201706151511">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin download-size="45" id="tern.eclipse.ide.server.nodejs.core" install-size="83" unpack="false" version="1.2.0.201701041527"/>
+
+   <plugin download-size="44" id="tern.eclipse.ide.server.nodejs.ui" install-size="88" unpack="false" version="1.2.0.201701041527"/>
+
+   <plugin download-size="38" id="tern.server.nodejs" install-size="69" version="1.2.0.201701241331"/>
+
+</feature>

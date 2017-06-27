@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.genuitec.eclipse.webclipse.commons.feature"
+      label="Webclipse Foundation"
+      version="1.8.2.201706151516"
+      provider-name="Genuitec, LLC">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Webclipse Foundation feature provides essential plugins.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <includes
+         id="com.genuitec.eclipse.webclipse.core.feature"
+         version="1.8.2.201706151516"/>
+
+   <includes
+         id="com.genuitec.eclipse.webclipse.navigation.feature"
+         version="1.8.2.201706151516"/>
+   
+</feature>

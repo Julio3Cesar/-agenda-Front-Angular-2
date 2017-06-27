@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.common.core.javaee.feature" label="Genuitec JavaEE Core" provider-name="Genuitec, LLC" version="1.8.2.201706151510">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Genuitec JavaEE Core feature provides auxiliary plugins required
+for functionality with JavaEE.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.jdt" version="3.8.0"/>
+      <import feature="org.eclipse.jst.enterprise_ui.feature" version="3.6.0"/>
+      <import feature="org.eclipse.jst.server_ui.feature" version="3.4.0"/>
+      <import feature="org.eclipse.wst.web_ui.feature" version="3.3.0"/>
+      <import feature="org.eclipse.jst.web_ui.feature" version="3.6.0"/>
+      <import feature="org.eclipse.jst.common.fproj.enablement.jdt" version="3.6.0"/>
+      <import feature="com.genuitec.eclipse.common.core.feature"/>
+   </requires>
+
+   <plugin download-size="77" id="com.genuitec.eclipse.core.common" install-size="168" unpack="false" version="13.0.0.201701041554"/>
+
+   <plugin download-size="346" id="com.genuitec.eclipse.ui.common" install-size="668" unpack="false" version="13.0.0.201705181446"/>
+
+   <plugin download-size="102" id="com.genuitec.eclipse.jee.common.core" install-size="217" unpack="false" version="13.0.0.201701041554"/>
+
+</feature>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.angularide.feature" label="Angular IDE" plugin="com.genuitec.eclipse.angularide.ui" provider-name="Genuitec, LLC" version="1.8.2.201706151516">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Angular IDE by Webclipse is built specifically for Angular. Simple for beginners; powerful for experts. Available as a stand-alone IDE or as part of our Eclipse plugin.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %copyright
+   </license>
+
+   <includes id="com.genuitec.eclipse.webclipse.jsjet.feature" version="1.8.2.201706151516"/>
+
+   <includes id="com.genuitec.eclipse.webclipse.angular2.feature" version="1.8.2.201706151516"/>
+
+   <plugin download-size="3" id="com.genuitec.eclipse.angularide.ui" install-size="1" unpack="false" version="1.7.3.201704201301"/>
+
+</feature>

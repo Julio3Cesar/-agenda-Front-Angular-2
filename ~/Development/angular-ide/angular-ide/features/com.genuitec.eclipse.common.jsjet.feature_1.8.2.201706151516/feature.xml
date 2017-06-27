@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.common.jsjet.feature" label="JSjet Commons" provider-name="Genuitec, LLC" version="1.8.2.201706151516">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The JSjet feature powers up your Eclipse with best-in-class JavaScript and TypeScript coding support from content assist to rapid validation.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <includes id="com.eclipsesource.j2v8.feature" version="4.0.0.201704121300"/>
+
+   <includes id="tern-feature" version="1.2.0.201706151511"/>
+
+   <includes id="tern-jsdt-feature" version="1.2.0.201706151511"/>
+
+   <includes id="tern-linters-feature" version="1.2.0.201706151511"/>
+
+   <includes id="tern-server-nodejs-feature" version="1.2.0.201706151511"/>
+
+   <includes id="tern.eclipse.ide.server.nodejs.embed" version="1.2.0.201706151511"/>
+
+   <includes id="com.genuitec.eclipse.common.typescript.feature" version="1.8.2.201706151516"/>
+
+   <requires>
+      <import feature="com.genuitec.eclipse.common.core.feature"/>
+      <import feature="org.eclipse.wst.web_ui.feature" version="3.6.0"/>
+   </requires>
+
+   <plugin download-size="419" id="com.genuitec.eclipse.javascript.jsdt.core" install-size="904" unpack="false" version="1.7.0.201702012114"/>
+
+   <plugin download-size="792" id="com.genuitec.eclipse.javascript.tern" install-size="2670" unpack="false" version="13.0.0.201703242031"/>
+
+   <plugin download-size="62" id="org.objectweb.asm" install-size="127" unpack="false" version="5.0.1.v201404251740"/>
+
+   <plugin download-size="39" id="org.objectweb.asm.tree" install-size="71" unpack="false" version="5.0.1.v201404251740"/>
+
+</feature>

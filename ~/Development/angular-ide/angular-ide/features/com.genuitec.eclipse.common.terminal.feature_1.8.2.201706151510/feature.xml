@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.common.terminal.feature" label="Terminal Plus Commons" provider-name="Genuitec, LLC" version="1.8.2.201706151510">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Terminal Plus feature makes using terminal for your modern web project awesome.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <requires>
+      <import feature="com.genuitec.eclipse.common.core.feature"/>
+   </requires>
+
+   <plugin download-size="199" id="com.genuitec.eclipse.webclipse.terminal" install-size="436" unpack="false" version="1.8.1.201706070118"/>
+
+   <plugin download-size="360" id="com.genuitec.eclipse.7z" install-size="645" unpack="false" version="1.6.0.201701041554"/>
+
+   <plugin download-size="57" id="com.genuitec.eclipse.webclipse.terminal.enhancer" install-size="113" unpack="false" version="1.7.0.201701251547"/>
+
+</feature>

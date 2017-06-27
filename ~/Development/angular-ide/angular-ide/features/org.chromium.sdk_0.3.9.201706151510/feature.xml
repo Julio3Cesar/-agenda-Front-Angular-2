@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  Copyright (c) 2009 The Chromium Authors. All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be
+  found in the LICENSE file.
+--><feature id="org.chromium.sdk" label="%featureName" provider-name="%providerName" version="0.3.9.201706151510">
+
+   <description url="http://code.google.com/p/chromedevtools/wiki/ChromeDevToolsSdk">
+      %description
+   </description>
+
+   <copyright>
+      Copyright (c) 2012 The Chromium Authors. All rights reserved.
+   </copyright>
+
+   <license url="%licenseUrl">
+      %licenseAgreement
+   </license>
+
+   <url>
+      <update label="ChromeDevTools Update Site" url="http://chromedevtools.googlecode.com/svn/update/dev/"/>
+   </url>
+
+   <plugin download-size="629" id="org.chromium.sdk" install-size="1294" unpack="false" version="0.3.9.201701041554"/>
+
+   <plugin download-size="4" id="org.chromium.sdk.wip.eclipse" install-size="4" unpack="false" version="0.3.9.201701041554"/>
+
+   <plugin download-size="29" id="com.googlecode.json-simple" install-size="52" unpack="false" version="1.1.1.me201606061543"/>
+
+</feature>

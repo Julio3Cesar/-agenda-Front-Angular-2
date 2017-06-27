@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.genuitec.eclipse.webclipse.terminal.feature"
+      label="Webclipse Terminal Plus"
+      version="1.8.2.201706151516"
+      provider-name="Genuitec, LLC">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Webclipse Terminal Plus feature makes using terminal for your modern web project awesome.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <includes
+         id="com.genuitec.eclipse.webclipse.core.feature"
+         version="1.8.2.201706151516"/>
+
+   <includes
+         id="com.genuitec.eclipse.common.terminal.feature"
+         version="1.8.2.201706151510"/>
+
+</feature>

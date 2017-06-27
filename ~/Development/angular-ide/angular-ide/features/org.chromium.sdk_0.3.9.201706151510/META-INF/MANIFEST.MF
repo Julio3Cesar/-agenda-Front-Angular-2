@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: jenkins
+Created-By: Apache Maven 3.5.0
+Build-Jdk: 1.8.0_45
+
+Name: feature.xml
+SHA-256-Digest: adZtl1tIetvvK9p6fdTPi5BMw7+v+ZWAuFrYLI3ZRbM=
+
+Name: feature.properties
+SHA-256-Digest: jcEoEVtl4cLVcpok1WihizhBBHcGGQ8LHiOSgqaxmnA=
+
+Name: LICENSE
+SHA-256-Digest: 93EzMk81WJ+fFwRzRWMh/naqNbdQKTy4pHXiavqPK6w=
+
+Name: license.html
+SHA-256-Digest: vzhYdqK3nwYUvIo8RHWLSrrSdaV4neGSx1cdCGZ1BFo=
+

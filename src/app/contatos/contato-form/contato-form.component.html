@@ -48,10 +48,20 @@
 		<!-- Button -->
 		<div class="form-group">
 			<div class="col-md-offset-1 col-md-10">
-				<button type='submit' id="adicionar" name="adicionar"
-					class="btn btn-block btn-primary">Adicionar</button>
+				<button [disabled]="form.invalid" type='submit' id="adicionar"
+					name="adicionar" class="btn btn-block btn-primary">Adicionar</button>
 			</div>
 		</div>
-
+		<!-- Button -->
+		<div class="form-group">
+			<div class="col-md-offset-1 col-md-10">
+				<button routerLink='/menu/contatos' type='button' id="cancelar"
+					name="cancelar" class="btn btn-block btn-danger">Cancelar</button>
+			</div>
+		</div>
+		<!--listagem dos errors -->
+		<ul>
+			<li style='color:red;' [style.display]="form.valid ? 'none' : 'block' ">Adicione um Nome</li>
+		</ul>
 	</fieldset>
 </form>

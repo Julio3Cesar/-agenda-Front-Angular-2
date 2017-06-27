@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.genuitec.eclipse.webclipse.jsjet.feature"
+      label="Webclipse JSjet"
+      version="1.8.2.201706151516"
+      provider-name="Genuitec, LLC">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Webclipse JSjet feature powers up your Eclipse with best-in-class JavaScript and TypeScript coding support from content assist to rapid validation.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+
+   <includes
+         id="com.genuitec.eclipse.common.jsjet.feature"
+         version="1.8.2.201706151516"/>
+   <requires>
+      <import feature="com.genuitec.eclipse.webclipse.core.feature"/>
+   </requires>
+
+</feature>

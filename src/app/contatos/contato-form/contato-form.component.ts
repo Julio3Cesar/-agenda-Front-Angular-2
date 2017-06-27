@@ -1,8 +1,9 @@
 import { Contato } from '../../_models/Contato';
 import { ContatosService } from '../../_services/contatos/contatos.service';
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
+import { JwtHelper } from 'angular2-jwt';
 
 @Component({
   selector: 'app-contato-form',
@@ -11,10 +12,10 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class ContatoFormComponent implements OnInit {
 
-  private form: FormGroup;
-  private title: string;
-  //  private contato: Contato;
-  private contato: Contato = new Contato();
+  public form: FormGroup;
+  public title: string;
+  public contato: Contato = new Contato();
+  private user = new JwtHelper().decodeToken(localStorage.getItem('token')).user;
 
   constructor(
     private router: Router,
@@ -23,7 +24,7 @@ export class ContatoFormComponent implements OnInit {
     private route: ActivatedRoute) {
 
     this.form = formBuilder.group({
-      nome: [''],
+      nome: [Validators.required],
       email: [''],
       telefone: [''],
       celular: [''],
@@ -48,8 +49,13 @@ export class ContatoFormComponent implements OnInit {
     const contatoValue = this.form.value;
     const id = this.route.params.subscribe(params => {
       contatoValue.id = params['id'];
+      contatoValue.user = this.user;
       this.contatosService.addContato(contatoValue)
-        .subscribe(data => this.router.navigate(['contatos']));
+        .subscribe(data => this.router.navigate(['/menu/contatos']),
+        err => {
+          alert('Algo deu errado...')
+          console.log(err)
+        });
     });
   }
 }

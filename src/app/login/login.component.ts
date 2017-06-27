@@ -12,7 +12,7 @@ import { User } from './../_models/User';
 })
 export class LoginComponent {
 
-  private user: User = new User();
+  public user: User = new User();
   formLogin: FormGroup;
 
   constructor(private formBuilder: FormBuilder, private loginService: LoginService, private router: Router) {
@@ -32,7 +32,7 @@ export class LoginComponent {
         this.router.navigate(['menu/home']);
       },
       error => {
-        console.log("ERRO AO LOGAR!");
+        console.log('ERRO AO LOGAR!');
       });
   }
 

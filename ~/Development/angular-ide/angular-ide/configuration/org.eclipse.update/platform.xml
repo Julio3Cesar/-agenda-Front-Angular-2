@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1497612324369" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.wst.json_core.feature" version="1.0.2.v201612232230" url="features/org.eclipse.wst.json_core.feature_1.0.2.v201612232230/">
+		</feature>
+		<feature id="com.genuitec.eclipse.webclipse.commons.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.webclipse.commons.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="org.chromium.debug" version="0.3.9.201706151510" url="features/org.chromium.debug_0.3.9.201706151510/">
+		</feature>
+		<feature id="org.eclipse.wst.web_userdoc.feature" version="3.8.2.v201610032207" url="features/org.eclipse.wst.web_userdoc.feature_3.8.2.v201610032207/">
+		</feature>
+		<feature id="com.genuitec.eclipse.common.jsjet.jee.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.common.jsjet.jee.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="org.eclipse.jst.server_core.feature" version="3.4.300.v201606081655" url="features/org.eclipse.jst.server_core.feature_3.4.300.v201606081655/">
+		</feature>
+		<feature id="org.eclipse.wst.server_ui.feature" version="3.3.655.v201611072017" url="features/org.eclipse.wst.server_ui.feature_3.3.655.v201611072017/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.12.0.v20160420-0247" url="features/org.eclipse.emf.ecore_2.12.0.v20160420-0247/">
+		</feature>
+		<feature id="org.eclipse.jgit" version="4.6.1.201703071140-r" url="features/org.eclipse.jgit_4.6.1.201703071140-r/">
+		</feature>
+		<feature id="org.eclipse.wst.server_adapters.feature" version="3.2.500.v201703062119" url="features/org.eclipse.wst.server_adapters.feature_3.2.500.v201703062119/">
+		</feature>
+		<feature id="com.genuitec.eclipse.webclipse.minimap.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.webclipse.minimap.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="org.chromium.sdk.wipbackends" version="0.1.11.201706151510" url="features/org.chromium.sdk.wipbackends_0.1.11.201706151510/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.2.203.v20170131-1444" url="features/org.eclipse.equinox.p2.rcp.feature_1.2.203.v20170131-1444/">
+		</feature>
+		<feature id="org.eclipse.epp.logging.aeri.feature" version="2.0.4.v20170307-1435" url="features/org.eclipse.epp.logging.aeri.feature_2.0.4.v20170307-1435/">
+		</feature>
+		<feature id="com.genuitec.eclipse.webclipse.terminal.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.webclipse.terminal.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="com.genuitec.eclipse.webclipse.explorer.jdt.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.webclipse.explorer.jdt.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" version="2.2.203.v20170131-1444" url="features/org.eclipse.equinox.p2.user.ui_2.2.203.v20170131-1444/">
+		</feature>
+		<feature id="org.eclipse.wst.ws_ui.feature" version="3.8.0.v201702270442" url="features/org.eclipse.wst.ws_ui.feature_3.8.0.v201702270442/">
+		</feature>
+		<feature id="tern-server-nodejs-feature" version="1.2.0.201706151511" url="features/tern-server-nodejs-feature_1.2.0.201706151511/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient4.feature" version="3.13.2.v20160823-2221" url="features/org.eclipse.ecf.filetransfer.httpclient4.feature_3.13.2.v20160823-2221/">
+		</feature>
+		<feature id="org.eclipse.wst.xml_core.feature" version="3.8.2.v201702270442" url="features/org.eclipse.wst.xml_core.feature_3.8.2.v201702270442/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" version="1.3.203.v20170131-1444" url="features/org.eclipse.equinox.p2.core.feature_1.3.203.v20170131-1444/">
+		</feature>
+		<feature id="tern.eclipse.ide.server.nodejs.embed" version="1.2.0.201706151511" url="features/tern.eclipse.ide.server.nodejs.embed_1.2.0.201706151511/">
+		</feature>
+		<feature id="com.genuitec.eclipse.webclipse.angular2.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.webclipse.angular2.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.ssl.feature" version="1.1.0.v20160823-2221" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.0.v20160823-2221/">
+		</feature>
+		<feature id="org.eclipse.wst.json_ui.feature" version="1.0.2.v201612232230" url="features/org.eclipse.wst.json_ui.feature_1.0.2.v201612232230/" plugin-identifier="org.eclipse.wst.json.ui">
+		</feature>
+		<feature id="org.eclipse.wst.common_core.feature" version="3.8.2.v201701191735" url="features/org.eclipse.wst.common_core.feature_3.8.2.v201701191735/">
+		</feature>
+		<feature id="com.eclipsesource.j2v8.feature" version="4.0.0.201704121300" url="features/com.eclipsesource.j2v8.feature_4.0.0.201704121300/">
+		</feature>
+		<feature id="com.genuitec.eclipse.common.core.javaee.feature" version="1.8.2.201706151510" url="features/com.genuitec.eclipse.common.core.javaee.feature_1.8.2.201706151510/">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.12.0.v20160420-0247" url="features/org.eclipse.emf.common_2.12.0.v20160420-0247/">
+		</feature>
+		<feature id="org.eclipse.wst.ws_userdoc.feature" version="3.1.400.v201405061938" url="features/org.eclipse.wst.ws_userdoc.feature_3.1.400.v201405061938/">
+		</feature>
+		<feature id="org.eclipse.jst.enterprise_core.feature" version="3.6.0.v201701262105" url="features/org.eclipse.jst.enterprise_core.feature_3.6.0.v201701262105/">
+		</feature>
+		<feature id="com.genuitec.eclipse.common.core.base.feature" version="1.8.2.201706151510" url="features/com.genuitec.eclipse.common.core.base.feature_1.8.2.201706151510/">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" version="1.5.3.v20170228-0512" url="features/org.eclipse.e4.rcp_1.5.3.v20170228-0512/">
+		</feature>
+		<feature id="org.eclipse.jst.enterprise_ui.feature" version="3.8.0.v201701262139" url="features/org.eclipse.jst.enterprise_ui.feature_3.8.0.v201701262139/" plugin-identifier="org.eclipse.jst.jee.ui">
+		</feature>
+		<feature id="com.genuitec.eclipse.webclipse.navigation.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.webclipse.navigation.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="org.eclipse.wst.jsdt.chromium.debug.feature" version="0.5.200.v201701261810" url="features/org.eclipse.wst.jsdt.chromium.debug.feature_0.5.200.v201701261810/" plugin-identifier="org.eclipse.wst.jsdt.chromium.debug">
+		</feature>
+		<feature id="com.genuitec.eclipse.theming.feature" version="1.8.2.201706151510" url="features/com.genuitec.eclipse.theming.feature_1.8.2.201706151510/">
+		</feature>
+		<feature id="org.eclipse.platform" version="4.6.3.v20170301-0400" url="features/org.eclipse.platform_4.6.3.v20170301-0400/">
+		</feature>
+		<feature id="net.jeeeyul.swtend.feature" version="2.2.5.201706151516" url="features/net.jeeeyul.swtend.feature_2.2.5.201706151516/">
+		</feature>
+		<feature id="org.eclipse.wst.ws_core.feature" version="3.7.0.v201505131719" url="features/org.eclipse.wst.ws_core.feature_3.7.0.v201505131719/">
+		</feature>
+		<feature id="tern-jsdt-feature" version="1.2.0.201706151511" url="features/tern-jsdt-feature_1.2.0.201706151511/">
+		</feature>
+		<feature id="org.eclipse.jdt" version="3.12.3.v20170301-0400" url="features/org.eclipse.jdt_3.12.3.v20170301-0400/">
+		</feature>
+		<feature id="org.eclipse.jst.server_userdoc.feature" version="3.3.300.v201503102136" url="features/org.eclipse.jst.server_userdoc.feature_3.3.300.v201503102136/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.2.203.v20170131-1444" url="features/org.eclipse.equinox.p2.extras.feature_1.2.203.v20170131-1444/">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.6.3.v20170301-0400" url="features/org.eclipse.rcp_4.6.3.v20170301-0400/">
+		</feature>
+		<feature id="org.eclipse.wst.jsdt.feature" version="2.0.200.v201612211424" url="features/org.eclipse.wst.jsdt.feature_2.0.200.v201612211424/" plugin-identifier="org.eclipse.wst.jsdt.ui">
+		</feature>
+		<feature id="org.eclipse.wst.server_core.feature" version="3.3.601.v201610211907" url="features/org.eclipse.wst.server_core.feature_3.3.601.v201610211907/">
+		</feature>
+		<feature id="com.genuitec.eclipse.common.jsdebugger.jee.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.common.jsdebugger.jee.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="org.eclipse.wst.web_ui.feature" version="3.8.2.v201702270442" url="features/org.eclipse.wst.web_ui.feature_3.8.2.v201702270442/" plugin-identifier="org.eclipse.wst.web.ui">
+		</feature>
+		<feature id="org.eclipse.wst.ws_wsdl15.feature" version="1.5.400.v201405061938" url="features/org.eclipse.wst.ws_wsdl15.feature_1.5.400.v201405061938/">
+		</feature>
+		<feature id="com.genuitec.eclipse.common.typescript.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.common.typescript.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="com.genuitec.eclipse.angularide.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.angularide.feature_1.8.2.201706151516/" plugin-identifier="com.genuitec.eclipse.angularide.ui">
+		</feature>
+		<feature id="com.genuitec.eclipse.common.jsjet.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.common.jsjet.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="org.eclipse.jst.web_ui.feature" version="3.8.0.v201702270442" url="features/org.eclipse.jst.web_ui.feature_3.8.0.v201702270442/">
+		</feature>
+		<feature id="com.genuitec.eclipse.webclipse.explorer.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.webclipse.explorer.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="com.genuitec.eclipse.common.devsearch.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.common.devsearch.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="org.eclipse.jst.server_ui.feature" version="3.4.300.v201606081655" url="features/org.eclipse.jst.server_ui.feature_3.4.300.v201606081655/">
+		</feature>
+		<feature id="org.eclipse.wst.xml_ui.feature" version="3.8.2.v201702270442" url="features/org.eclipse.wst.xml_ui.feature_3.8.2.v201702270442/" plugin-identifier="org.eclipse.wst.xml.ui">
+		</feature>
+		<feature id="com.genuitec.eclipse.common.angular2.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.common.angular2.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="com.genuitec.eclipse.common.jsdebugger.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.common.jsdebugger.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="org.eclipse.wst.xml_userdoc.feature" version="3.8.2.v201610032207" url="features/org.eclipse.wst.xml_userdoc.feature_3.8.2.v201610032207/">
+		</feature>
+		<feature id="org.chromium.sdk" version="0.3.9.201706151510" url="features/org.chromium.sdk_0.3.9.201706151510/">
+		</feature>
+		<feature id="org.eclipse.jst.common.fproj.enablement.jdt" version="3.8.0.v201603091933" url="features/org.eclipse.jst.common.fproj.enablement.jdt_3.8.0.v201603091933/" plugin-identifier="org.eclipse.jst.common.project.facet.core">
+		</feature>
+		<feature id="com.genuitec.eclipse.common.core.feature" version="1.8.2.201706151510" url="features/com.genuitec.eclipse.common.core.feature_1.8.2.201706151510/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature" version="1.1.0.v20160823-2221" url="features/org.eclipse.ecf.filetransfer.httpclient4.ssl.feature_1.1.0.v20160823-2221/">
+		</feature>
+		<feature id="com.genuitec.eclipse.webclipse.aeri.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.webclipse.aeri.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="com.genuitec.eclipse.webclipse.devsearch.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.webclipse.devsearch.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="org.eclipse.help" version="2.2.2.v20170301-0400" url="features/org.eclipse.help_2.2.2.v20170301-0400/" plugin-identifier="org.eclipse.help.base">
+		</feature>
+		<feature id="org.eclipse.egit" version="4.6.1.201703071140-r" url="features/org.eclipse.egit_4.6.1.201703071140-r/">
+		</feature>
+		<feature id="com.genuitec.eclipse.webclipse.core.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.webclipse.core.feature_1.8.2.201706151516/" plugin-identifier="com.genuitec.eclipse.webclipse.ui">
+		</feature>
+		<feature id="org.eclipse.ecf.core.feature" version="1.3.0.v20160823-2221" url="features/org.eclipse.ecf.core.feature_1.3.0.v20160823-2221/">
+		</feature>
+		<feature id="org.eclipse.wst.server_userdoc.feature" version="3.3.300.v201405011426" url="features/org.eclipse.wst.server_userdoc.feature_3.3.300.v201405011426/">
+		</feature>
+		<feature id="tern-linters-feature" version="1.2.0.201706151511" url="features/tern-linters-feature_1.2.0.201706151511/">
+		</feature>
+		<feature id="com.genuitec.eclipse.common.terminal.feature" version="1.8.2.201706151510" url="features/com.genuitec.eclipse.common.terminal.feature_1.8.2.201706151510/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.ssl.feature" version="1.1.0.v20160823-2221" url="features/org.eclipse.ecf.core.ssl.feature_1.1.0.v20160823-2221/">
+		</feature>
+		<feature id="org.eclipse.wst.jsdt.nodejs.feature" version="1.0.200.v201610220243" url="features/org.eclipse.wst.jsdt.nodejs.feature_1.0.200.v201610220243/" plugin-identifier="org.eclipse.wst.jsdt.nodejs">
+		</feature>
+		<feature id="com.genuitec.eclipse.webclipse.jsdebugger.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.webclipse.jsdebugger.feature_1.8.2.201706151516/">
+		</feature>
+		<feature id="org.eclipse.jst.web_core.feature" version="3.8.0.v201701192236" url="features/org.eclipse.jst.web_core.feature_3.8.0.v201701192236/">
+		</feature>
+		<feature id="org.eclipse.jst.web_userdoc.feature" version="3.6.0.v201405070205" url="features/org.eclipse.jst.web_userdoc.feature_3.6.0.v201405070205/">
+		</feature>
+		<feature id="tern-feature" version="1.2.0.201706151511" url="features/tern-feature_1.2.0.201706151511/">
+		</feature>
+		<feature id="org.eclipse.jst.enterprise_userdoc.feature" version="3.6.0.v201612121628" url="features/org.eclipse.jst.enterprise_userdoc.feature_3.6.0.v201612121628/">
+		</feature>
+		<feature id="org.eclipse.wst.web_core.feature" version="3.8.2.v201702270442" url="features/org.eclipse.wst.web_core.feature_3.8.2.v201702270442/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.feature" version="3.13.2.v20160823-2221" url="features/org.eclipse.ecf.filetransfer.feature_3.13.2.v20160823-2221/">
+		</feature>
+		<feature id="org.eclipse.wst.common_ui.feature" version="3.8.0.v201701191735" url="features/org.eclipse.wst.common_ui.feature_3.8.0.v201701191735/">
+		</feature>
+		<feature id="com.genuitec.eclipse.webclipse.jsjet.feature" version="1.8.2.201706151516" url="features/com.genuitec.eclipse.webclipse.jsjet.feature_1.8.2.201706151516/">
+		</feature>
+	</site>
+</config>

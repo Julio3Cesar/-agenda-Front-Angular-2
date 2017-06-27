@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.webclipse.explorer.jdt.feature" label="Project Explorer Plus - JDT Support" provider-name="Genuitec, LLC" version="1.8.2.201706151516">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Webclipse Project Explorer+ feature adds a powerful replacement for the Project / Package Explorers with filtering, search and advanced content display. This features extends it's support for Java Development.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <plugin download-size="42" id="com.genuitec.eclipse.meexplorer.jdt" install-size="85" unpack="false" version="1.8.1.201705290950"/>
+
+</feature>

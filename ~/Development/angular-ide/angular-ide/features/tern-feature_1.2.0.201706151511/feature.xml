@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="tern-feature" label="%featureName" provider-name="%featureProvider" version="1.2.0.201706151511">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin download-size="31" id="minimal-json" install-size="36" unpack="false" version="0.9.4.me201510080624"/>
+
+   <plugin download-size="26" id="minimatch.java" install-size="44" unpack="false" version="1.1.0.me201510081130"/>
+
+   <plugin download-size="45" id="javax.websocket-api" install-size="77" unpack="false" version="1.1.0.201606171313"/>
+
+   <plugin download-size="15595" id="ternjs" install-size="76652" unpack="false" version="1.2.0.201701041527"/>
+
+   <plugin download-size="345" id="tern.eclipse.ide.ui" install-size="671" unpack="false" version="1.2.0.201701041527"/>
+
+   <plugin download-size="39" id="tern.eclipse" install-size="60" unpack="false" version="1.2.0.201701041527"/>
+
+   <plugin download-size="233" id="tern.core" install-size="440" unpack="false" version="1.2.0.201701041527"/>
+
+   <plugin download-size="116" id="tern.eclipse.ide.core" install-size="233" unpack="false" version="1.2.0.201704241946"/>
+
+   <plugin download-size="9" id="tern.eclipse.ide.debugger.webclipse" install-size="14" unpack="false" version="1.2.0.201701041527"/>
+
+</feature>

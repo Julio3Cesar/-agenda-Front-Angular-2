@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="com.genuitec.eclipse.webclipse.core.feature" label="Webclipse Core" plugin="com.genuitec.eclipse.webclipse.ui" provider-name="Genuitec, LLC" version="1.8.2.201706151516">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Webclipse Core feature provides foundation plugins required for Webclipse functionality.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <includes id="com.genuitec.eclipse.common.core.feature" version="1.8.2.201706151510"/>
+
+   <plugin download-size="290" id="com.genuitec.eclipse.webclipse.dashboard" install-size="459" unpack="false" version="1.8.1.201706061304"/>
+
+   <plugin download-size="45" id="com.genuitec.eclipse.dashboard.wizards" install-size="83" unpack="false" version="13.0.0.201701191646"/>
+
+   <plugin download-size="105" id="com.genuitec.eclipse.webclipse.evergreen" install-size="202" unpack="false" version="1.8.2.201706151510"/>
+
+   <plugin download-size="77" id="com.genuitec.eclipse.webclipse.ui" install-size="110" unpack="false" version="1.8.1.201705230957"/>
+
+</feature>

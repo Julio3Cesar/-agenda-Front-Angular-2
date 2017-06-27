@@ -1,0 +1,6 @@
+#JDT Support
+requires.0.namespace = org.eclipse.equinox.p2.iu
+requires.0.name = com.genuitec.eclipse.webclipse.explorer.jdt.feature.feature.group
+requires.0.range = 0.0.0
+requires.0.greedy = true
+requires.0.optional = true

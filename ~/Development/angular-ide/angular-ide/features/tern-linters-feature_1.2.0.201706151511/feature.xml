@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="tern-linters-feature" label="%featureName" provider-name="%featureProvider" version="1.2.0.201706151511">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="minimal-json"/>
+   </requires>
+
+   <plugin download-size="25" id="tern.eclipse.ide.linter.core" install-size="47" unpack="false" version="1.2.0.201701041527"/>
+         
+   <plugin download-size="48" id="tern.eclipse.ide.linter.ui" install-size="92" unpack="false" version="1.2.0.201701041527"/>
+
+   <plugin download-size="5" id="tern.eclipse.ide.linter.eslint.core" install-size="3" unpack="false" version="1.2.0.201701041527"/>
+         
+   <plugin download-size="6" id="tern.eclipse.ide.linter.eslint.ui" install-size="6" unpack="false" version="1.2.0.201701041527"/>
+         
+   <plugin download-size="5" id="tern.eclipse.ide.linter.jscs.core" install-size="3" unpack="false" version="1.2.0.201701041527"/>
+         
+   <plugin download-size="6" id="tern.eclipse.ide.linter.jscs.ui" install-size="6" unpack="false" version="1.2.0.201701041527"/>
+                  
+   <plugin download-size="15" id="tern.eclipse.ide.linter.jshint.core" install-size="46" unpack="false" version="1.2.0.201701041527"/>
+         
+   <plugin download-size="6" id="tern.eclipse.ide.linter.jshint.ui" install-size="6" unpack="false" version="1.2.0.201701041527"/>
+
+   <plugin download-size="5" id="tern.eclipse.ide.linter.lint.core" install-size="3" unpack="false" version="1.2.0.201701041527"/>
+         
+   <plugin download-size="6" id="tern.eclipse.ide.linter.lint.ui" install-size="5" unpack="false" version="1.2.0.201701041527"/>
+         
+</feature>

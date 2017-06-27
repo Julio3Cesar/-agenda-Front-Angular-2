@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.genuitec.eclipse.webclipse.angular2.feature"
+      label="Webclipse Angular"
+      version="1.8.2.201706151516"
+      provider-name="Genuitec, LLC">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The Webclipse Angular feature assists you with developing code in Angular framework.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %copyright
+   </license>
+
+   <includes
+         id="com.genuitec.eclipse.webclipse.core.feature"
+         version="1.8.2.201706151516"/>
+
+   <includes
+         id="com.genuitec.eclipse.common.angular2.feature"
+         version="1.8.2.201706151516"/>
+
+</feature>
