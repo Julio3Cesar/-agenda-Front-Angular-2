@@ -1,0 +1,57 @@
+<form class="form-horizontal" [formGroup]="form" (ngSubmit)="salvar()">
+	<fieldset>
+
+		<!-- Form Name -->
+		<legend>{{title}}</legend>
+
+		<!-- Text input-->
+		<div class="form-group">
+			<label class=" col-md-offset-2 col-md-1 control-label" for="nome">Nome:
+			</label>
+			<div class="col-md-6 col-md-offset-1">
+				<input [(ngModel)]="contato.nome" formControlName="nome" id="nome"
+					name="nome" type="text" class="form-control input-md" required>
+			</div>
+		</div>
+
+		<!-- Text input-->
+		<div class="form-group">
+			<label class="col-md-offset-2 col-md-1 control-label" for="email">Email:
+			</label>
+			<div class="col-md-6 col-md-offset-1">
+				<input [(ngModel)]="contato.email" formControlName="email"
+					id="email" name="email" type="text" class="form-control input-md">
+
+			</div>
+		</div>
+
+		<!-- Text input-->
+		<div class="form-group">
+			<label class="col-md-offset-2 col-md-1 control-label" for="telefone">Telefone:</label>
+			<div class="col-md-6 col-md-offset-1">
+				<input [(ngModel)]="contato.telefone" formControlName="telefone"
+					id="telefone" name="telefone" type="text"
+					class="form-control input-md">
+			</div>
+		</div>
+
+		<!-- Text input-->
+		<div class="form-group">
+			<label class="col-md-offset-2 col-md-1 control-label" for="celular">Celular</label>
+			<div class="col-md-6 col-md-offset-1">
+				<input [(ngModel)]="contato.celular" formControlName="celular"
+					id="celular" name="celular" type="text"
+					class="form-control input-md">
+			</div>
+		</div>
+		<br />
+		<!-- Button -->
+		<div class="form-group">
+			<div class="col-md-offset-1 col-md-10">
+				<button type='submit' id="adicionar" name="adicionar"
+					class="btn btn-block btn-primary">Adicionar</button>
+			</div>
+		</div>
+
+	</fieldset>
+</form>
