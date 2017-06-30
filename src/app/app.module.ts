@@ -16,10 +16,12 @@ import { ContatosComponent } from './contatos/contatos.component';
 import { MenuUserService } from './_services/menu/menu-user.service';
 import { ContatosService } from './_services/contatos/contatos.service';
 import { RegisterService } from './_services/register/register.service';
+import { confirmSenhaValidator } from './_shared/_validadores/confirm-senha/confirm-senha-validator';
 import { ContatoFormComponent } from './contatos/contato-form/contato-form.component';
 import { AboutComponent } from './about/about.component';
 import { OptionsComponent } from './options/options.component';
 import { RegisterComponent } from './register/register.component';
+import { CampoErrorComponent } from './_shared/campo-error/campo-error.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { RegisterComponent } from './register/register.component';
     ContatoFormComponent,
     AboutComponent,
     OptionsComponent,
-    RegisterComponent
+    RegisterComponent,
+    CampoErrorComponent
   ],
   imports: [
     BrowserModule,
@@ -41,6 +44,7 @@ import { RegisterComponent } from './register/register.component';
     AuthModule,
     routing
   ],
+//  exports: [confirmSenhaValidator],
   providers: [
     AuthGuard,
     LoginGuard,

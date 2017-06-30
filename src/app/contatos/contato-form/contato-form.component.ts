@@ -1,5 +1,6 @@
 import { Contato } from '../../_models/Contato';
 import { ContatosService } from '../../_services/contatos/contatos.service';
+import { FormUtilCss } from '../../_shared/_utilitarios/formUtil/css/form-util-css';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
@@ -24,11 +25,16 @@ export class ContatoFormComponent implements OnInit {
     private route: ActivatedRoute) {
 
     this.form = formBuilder.group({
-      nome: [Validators.required],
-      email: [''],
+      nome: ['', Validators.required],
+      email: ['', Validators.required],
       telefone: [''],
       celular: [''],
     });
+  }
+
+  public mostraError(campo: string): boolean {
+    const f = this.form.get(campo);
+    return f.invalid && f.touched;
   }
 
   ngOnInit() {

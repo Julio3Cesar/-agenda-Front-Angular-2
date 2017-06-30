@@ -1,7 +1,8 @@
 
 <div class="col-md-8 col-md-offset-2">
 	<div class="container-fluid">
-		<form class="form-horizontal" [formGroup]="form" (ngSubmit)="registrar()">
+		<form class="form-horizontal" [formGroup]="form"
+			(ngSubmit)="registrar()">
 			<div class="profile-content">
 				<fieldset>
 
@@ -9,29 +10,31 @@
 					<legend>Novo Usuario</legend>
 
 					<div class="col-md-8 col-md-offset-1 ">
-					
+
 						<!-- File Button -->
-<!-- 						<div class="form-group"> -->
-<!-- 							<label class="col-md-4 control-label" for="foto">Foto:</label> -->
-<!-- 							<div class="col-md-4"> -->
-<!-- 								<input id="foto" name="foto" class="input-file" type="file"> -->
-<!-- 							</div> -->
-<!-- 						</div> -->
+						<!-- <div class="form-group"> -->
+						<!--<label class="col-md-4 control-label" for="foto">Foto:</label> -->
+						<!--<div class="col-md-4"> -->
+						<!--<input id="foto" name="foto" class="input-file" type="file"> -->
+						<!--</div> -->
+						<!--</div> -->
 
 						<!-- Text input-->
 						<div class="form-group">
 							<label class="col-md-4 control-label" for="foto">Foto:</label>
-							<div class="col-md-6">
-								<input [(ngModel)]="usuario.foto" formControlName="foto" id="foto" name="foto" type="text"
-									placeholder="Foto..." class="form-control input-md input-sm">
+							<div class="col-md-7">
+								<input [(ngModel)]="usuario.foto" formControlName="foto"
+									id="foto" name="foto" type="text" placeholder="Foto..."
+									class="form-control input-md input-sm">
 
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-md-4 control-label" for="nome">Nome:</label>
-							<div class="col-md-6">
-								<input [(ngModel)]="usuario.nome" formControlName="nome" id="nome" name="nome" type="text" placeholder="Nome..."
+							<div class="col-md-7">
+								<input [(ngModel)]="usuario.nome" formControlName="nome"
+									id="nome" name="nome" type="text" placeholder="Nome..."
 									class="form-control input-md">
 
 							</div>
@@ -39,72 +42,91 @@
 
 						<div class="form-group">
 							<label class="col-md-4 control-label" for="sobrenome">Sobrenome:</label>
-							<div class="col-md-6">
-								<input [(ngModel)]="usuario.sobreNome" formControlName="sobreNome" id="sobrenome" name="sobrenome" type="text"
-									placeholder="Sobrenome..." class="form-control input-md"
-									required>
+							<div class="col-md-7">
+								<input [(ngModel)]="usuario.sobreNome"
+									formControlName="sobreNome" id="sobrenome" name="sobrenome"
+									type="text" placeholder="Sobrenome..."
+									class="form-control input-md">
 
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-md-4 control-label" for="username">Username:</label>
-							<div class="col-md-6">
-								<input [(ngModel)]="usuario.username" formControlName="username" id="username" name="username" type="text"
-									placeholder="Username..." class="form-control input-md"
-									required>
+							<div class="col-md-7">
+								<input [(ngModel)]="usuario.username" formControlName="username"
+									id="username" name="username" type="text"
+									placeholder="Username..." class="form-control input-md">
 
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-md-4 control-label" for="email">Email:</label>
-							<div class="col-md-6">
-								<input [(ngModel)]="usuario.email" formControlName="email" id="email" name="email" type="text"
-									placeholder="Email..." class="form-control input-md"
-									required>
+							<div class="col-md-7">
+								<input [(ngModel)]="usuario.email" formControlName="email"
+									id="email" name="email" type="text" placeholder="Email..."
+									class="form-control input-md">
 
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-md-4 control-label" for="profissao">Profissao:</label>
-							<div class="col-md-6">
-								<input [(ngModel)]="usuario.profissao" formControlName="profissao" id="profissao" name="profissao" type="text"
-									placeholder="Profissao..." class="form-control input-md">
+							<div class="col-md-7">
+								<input [(ngModel)]="usuario.profissao"
+									formControlName="profissao" id="profissao" name="profissao"
+									type="text" placeholder="Profissao..."
+									class="form-control input-md">
 
 							</div>
 						</div>
 
-						<!-- Password input-->
-						<div class="form-group">
-							<label class="col-md-4 control-label" for="senha">Senha:</label>
-							<div class="col-md-6">
-								<input [(ngModel)]="usuario.senha"formControlName="senha" id="senha" name="senha" type="password"
-									placeholder="Senha..." class="form-control input-md"
-									required>
+<!-- 						<div formGroupName="campoSenha"> -->
+							<!-- Password input-->
+							<div class="form-group">
+								<label class="col-md-4 control-label" for="senha">Senha:</label>
+								<div class="col-md-7">
+									<input [(ngModel)]="usuario.senha" formControlName="senha"
+										id="senha" name="senha" type="password" placeholder="Senha..."
+										class="form-control input-md">
 
+								</div>
+							</div>
+							<!-- Password input-->
+							<div class="form-group">
+								<label class="col-md-4 control-label" for="confirmSenha">Confirm
+									Senha:</label>
+								<div class="col-md-7">
+									<input [(ngModel)]="usuario.confirmSenha"
+										formControlName="confirmSenha" id="confirmSenha"
+										name="confirmSenha" type="password"
+										placeholder="Confirm Senha..." class="form-control input-md">
+								</div>
 							</div>
 						</div>
-
-						<!-- Password input-->
-						<div class="form-group">
-							<label class="col-md-4 control-label" for="confirmSenha">Confirm
-								Senha:</label>
-							<div class="col-md-6">
-								<input formControlName="confirmSenha" id="confirmSenha" name="confirmSenha" type="password"
-									placeholder="Confirm Senha..." class="form-control input-md"
-									required>
-							</div>
-						</div>
-					</div>
+<!-- 					</div> -->
 					
 					<!-- Button (Double) -->
 					<div class="form-group">
 						<div class="col-md-8 col-md-offset-4">
-							<button type='submit' id="button1id" class="btn btn-success">Registar</button>
+							<button type='submit' id="button1id" class="btn btn-success"
+								[disabled]="form.invalid">Registar</button>
 							<a routerLink="/login" id="button2id" class="btn btn-danger">Cancelar</a>
 						</div>
+					</div>
+
+					<!--listagem dos errors -->
+					<div style="color: red;">
+						<ul>
+							<li [style.display]="mostraError('email') ? 'block' : 'none'">Adicione
+								um Email valido.</li>
+							<li [style.display]="mostraError('senha') ? 'block' : 'none'">Digite
+								uma senha valida (min 3 digitos)</li>
+							<li
+								[style.display]="confirmSenha() ? 'block' : 'none'">Senha
+								nao sao iguais.</li>
+						</ul>
 					</div>
 				</fieldset>
 			</div>

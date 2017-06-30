@@ -60,8 +60,11 @@
 			</div>
 		</div>
 		<!--listagem dos errors -->
-		<ul>
-			<li style='color:red;' [style.display]="form.valid ? 'none' : 'block' ">Adicione um Nome</li>
-		</ul>
+		<div style="color:red;">
+			<ul>
+				<li [style.display]="mostraError('nome') ? 'block' : 'none'">Adicione um Nome.</li>
+				<li [style.display]="mostraError('email') ? 'block' : 'none'">Adicione um Email valido.</li>
+			</ul>
+		</div>
 	</fieldset>
 </form>

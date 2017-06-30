@@ -6,6 +6,7 @@ export class Usuario {
   email: string;
   profissao: string;
   senha: string;
+  confirmSenha: string;
   constructor(
     foto?: string,
     sobreNome?: string,
@@ -13,6 +14,7 @@ export class Usuario {
     username?: string,
     email?: string,
     profissao?: string,
-    senha?: string
+    senha?: string,
+    confirmSenha?: string
   ) { }
 }
